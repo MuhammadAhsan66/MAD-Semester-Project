@@ -1,0 +1,67 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+StdinException: StdinException: Error setting terminal echo mode, OS Error: The handle is invalid.
+, errno = 6
+
+```
+#0      Stdin.echoMode= (dart:io-patch/stdio_patch.dart:85:7)
+#1      AnsiTerminal.singleCharMode= (package:flutter_tools/src/base/terminal.dart:289:13)
+#2      TerminalHandler.setupTerminal (package:flutter_tools/src/resident_runner.dart:1537:15)
+#3      RunCommand.runCommand.<anonymous closure> (package:flutter_tools/src/commands/run.dart:687:15)
+#4      _rootRunUnary (dart:async/zone.dart:1434:47)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.0.1, on Microsoft Windows [Version 10.0.19044.1706], locale en-PK)
+    • Flutter version 3.0.1 at E:\Program Files\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision fb57da5f94 (12 days ago), 2022-05-19 15:50:29 -0700
+    • Engine revision caaafc5604
+    • Dart version 2.17.1
+    • DevTools version 2.12.2
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
+    • Android SDK at E:\Users\Dell\AppData\Local
+    • Platform android-31, build-tools 31.0.0
+    • ANDROID_HOME = C:\Users\muham\AppData\Local\Android\Sdk
+    • ANDROID_SDK_ROOT = C:\Users\muham\AppData\Local\Android\Sdk
+    • Java binary at: E:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[!] Visual Studio - develop for Windows (Visual Studio Community 2019 16.2.5)
+    • Visual Studio at e:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+    • Visual Studio Community 2019 version 16.2.29306.81
+    ✗ The current Visual Studio installation is incomplete. Please reinstall Visual Studio.
+
+[✓] Android Studio (version 2020.3)
+    • Android Studio at E:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+
+[✓] Connected device (3 available)
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19044.1706]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 102.0.5005.63
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 99.0.1150.39
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 1 category.
+```

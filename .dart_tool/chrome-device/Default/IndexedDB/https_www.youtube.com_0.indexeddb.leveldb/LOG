@@ -1,0 +1,23 @@
+2022/06/13-11:58:44.301 4114 Reusing MANIFEST C:\Users\Dell\AppData\Local\Temp\flutter_tools.c6b0007b\flutter_tools_chrome_device.4874228c\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/13-11:58:44.301 4114 Recovering log #3
+2022/06/13-11:58:44.309 4114 Reusing old log C:\Users\Dell\AppData\Local\Temp\flutter_tools.c6b0007b\flutter_tools_chrome_device.4874228c\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/06/13-11:58:57.316 1e2c Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:01.412 1e2c Level-0 table #5: started
+2022/06/13-11:59:01.421 1e2c Level-0 table #5: 93776 bytes OK
+2022/06/13-11:59:01.427 1e2c Delete type=0 #3
+2022/06/13-11:59:01.427 1e2c Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:02.440 3e4c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:02.440 3e4c Manual compaction at level-1 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:02.558 3e4c Level-0 table #7: started
+2022/06/13-11:59:02.566 3e4c Level-0 table #7: 25400 bytes OK
+2022/06/13-11:59:02.572 3e4c Delete type=0 #4
+2022/06/13-11:59:02.572 3e4c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:02.572 3e4c Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00 \x12\xbd\xbd\x15xB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 2597 : 1
+2022/06/13-11:59:02.572 3e4c Compacting 1@1 + 1@2 files
+2022/06/13-11:59:02.577 3e4c Generated table #8@1: 245 keys, 7443 bytes
+2022/06/13-11:59:02.577 3e4c Compacted 1@1 + 1@2 files => 7443 bytes
+2022/06/13-11:59:02.582 3e4c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/13-11:59:02.582 3e4c Delete type=2 #7
+2022/06/13-11:59:02.583 3e4c Manual compaction at level-1 from '\x00\x0b\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00 \x12\xbd\xbd\x15xB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 2597 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:05.880 3e4c Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/13-11:59:05.880 3e4c Manual compaction at level-1 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
